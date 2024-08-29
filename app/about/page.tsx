@@ -1,9 +1,8 @@
 import style from "./style.module.css";
-
-export default function Home() {
+export default function About() {
   return (
     <main className={style.main}>
-      <div className={style.content}>Home page</div>
+        About
     </main>
-  );
+  )
 }
